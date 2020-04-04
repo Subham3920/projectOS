@@ -5,7 +5,7 @@ int main()
 {
     int head_pos,n;
     printf("\nEnter the head position:: ");
-    scanf("%d",&head_pos);          //head_pos points to current position
+    scanf("%d",&head_pos);           //head_pos points to current position
     printf("\nEnter the number of requests:: ");
     scanf("%d",&n);
     func1(n,head_pos);
